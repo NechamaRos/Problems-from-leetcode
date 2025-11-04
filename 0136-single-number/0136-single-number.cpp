@@ -6,7 +6,7 @@ public:
         {
             scores[num]++;
         }
-        for (const auto& pair : freq) {
+        for (const auto& pair : scores) {
             if (pair.second == 1) {
                 return pair.first;
             }
